@@ -8,6 +8,7 @@
     <meta name="description"
         content="Professional radio consultancy services for home and car audio systems. Get expert guidance, troubleshooting support, and personalized recommendations from certified radio specialists.">
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -202,6 +203,36 @@
                 Our certified radio consultants are standing by to provide expert guidance for all your car and home
                 radio needs. Get personalized solutions today.</p>
             <a href="tel:0000000000" class="btn btn-secondary">Talk to an Expert: 0000000000</a>
+
+            <!-- Disclaimer -->
+            <div
+                style="margin-top: 2.5rem; text-align: left; border-top: 1px solid rgba(255,255,255,0.25); padding-top: 2rem;">
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; color: #fff;">About Our
+                        Services</h3>
+                    <p style="line-height: 1.8; color: rgba(255,255,255,0.88); font-size: 0.97rem;">
+                        We provide services through online and phone consultations, allowing customers to receive expert
+                        advice without needing to visit a physical location. Our support includes professional guidance
+                        on
+                        car electrical systems, car radio installation and troubleshooting, and home radio assistance.
+                        Our
+                        goal is to offer convenient, reliable, and accessible technical guidance directly to you.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.5rem; color: #fff;">Ownership
+                        Notice</h3>
+                    <p style="line-height: 1.8; color: rgba(255,255,255,0.88); font-size: 0.97rem;">
+                        SpecialXM is solely owned and operated by Dharmendra Kumar Yadav. There are no third-party
+                        associations, partnerships, affiliates, or external entities connected with SpecialXM. All
+                        rights,
+                        ownership, control, and responsibilities belong exclusively to Dharmendra Kumar Yadav.
+                    </p>
+                </div>
+
+            </div>
         </div>
     </section>
 
@@ -240,11 +271,41 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2024 RadioXpert. All rights reserved.</p>
+                <p>&copy; 2026 RadioXpert. All rights reserved.</p>
             </div>
         </div>
     </footer>
     <script src="js/main.js"></script>
+
+    <!-- Call Us Popup -->
+    <div id="callPopup"
+        style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:9999; align-items:center; justify-content:center;">
+        <div
+            style="background:linear-gradient(135deg,#1a1a2e,#16213e); border-radius:16px; padding:2rem 2rem 1.5rem; max-width:340px; width:90%; text-align:center; position:relative;">
+            <!-- <button onclick="document.getElementById('callPopup').style.display='none'"
+                style="position:absolute; top:12px; right:14px; background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer;">✕</button> -->
+            <div style="font-size:2.5rem;">📞</div>
+            <h5 style="color:#fff; font-weight:700; margin:.5rem 0 .25rem;">Need Help with SiriusXM?</h5>
+            <p style="color:rgba(255,255,255,0.6); font-size:.9rem; margin-bottom:1.25rem;">Tap the number below to call
+                us instantly</p>
+            <a href="tel:0000000000"
+                style="font-size:1.85rem; font-weight:700; color:#f6c90e; text-decoration:none; letter-spacing:1px;">0000000000</a>
+            <div style="margin-top:1.25rem;">
+                <a href="tel:0000000000" onclick="document.getElementById('callPopup').style.display='none'"
+                    style="display:block; background:#f6c90e; color:#1a1a2e; font-weight:700; padding:.65rem; border-radius:10px; text-decoration:none; font-size:1rem;">📲
+                    Call Now</a>
+            </div>
+            <button onclick="document.getElementById('callPopup').style.display='none'"
+                style="background:none; border:none; color:rgba(255,255,255,0.5); font-size:.85rem; margin-top:.75rem; cursor:pointer;">Maybe
+                later</button>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('callPopup').style.display = 'flex';
+        });
+    </script>
+
 </body>
 
 </html>
